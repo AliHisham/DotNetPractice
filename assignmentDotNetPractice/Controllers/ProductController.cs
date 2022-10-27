@@ -58,7 +58,7 @@ namespace assignmentDotNetPractice.Controllers
 
         [HttpGet("{id}")]
 
-        public ActionResult getDoctor(Guid id)
+        public ActionResult getOneProduct(Guid id)
         {
             var product = productRepository.getProductById(id);
             if (product != null)
